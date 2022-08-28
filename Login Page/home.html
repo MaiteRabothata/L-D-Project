@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+    <title>
+        Project L&D
+    </title>
+    <meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    
+    <header id=""header>
+        <nav>
+            <div class="logo"><img src="Images/logo.png" alt="logo"></div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Courses</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="Images/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Get Started</a>
+            <div class="profile-logo"><img src="Images/profile-logo.jpg" alt="profile-logo" onclick="toggleMenu()" ></div>
+                <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <ol>
+                            <li><a href="">Profile</a></li>
+                            <li><a href="">Settings</a></li>
+                            <li><a href="">Log Out</a></li>
+                        </ol>
+                    </div>
+                </div>
+        </nav>
+
+        <div class="head-container">
+            <div class="quote">
+                <p>The beautiful thing about learning is that nobody can take it away from you</p>
+				<h5>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</h5>
+            </div>
+
+            <div class="svg-image">
+                <img src="Images/svg1.jpg" alt="svg">
+            </div>
+        </div>
+    </header>
+
+
+
+<!--SUB MENU SCRIPTING-->
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+
+</script>
+
+
+</body>
+</html>

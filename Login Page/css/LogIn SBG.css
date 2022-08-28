@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: Black;
+}
+
+input {
+    padding: 20px;
+    font-size: 18px;
+    color: #9D9D9D;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../Images/SBGBackgroung.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    align-self: center;
+    width: 30%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.loginapp {
+    align-self:flex-end;
+    width: 100px;
+    height: 100px;
+    background-image: url("../Images/Standardbank logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    margin-top: 15px;
+}
+.headerlog{
+     align-self: center;
+    color: #92a8d1;
+    margin-top: 60px;
+    height: 1%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 5%;   
+}
+.card .card-form {
+    align-self: center;
+    margin-top: 40px;
+    width: 85%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card .card-form .field-container {
+    align-self: center;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.card .card-form .field-container input {
+    width: 100%;
+}
+
+.card .card-form .field-container-2 {
+    align-self: center;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.card .card-form .field-container-2 .checkme span {
+    color: Black;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+
+.card .card-form .field-container-2 .forgotpass a span {
+    color: Black;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.card .card-form .field-container-2 .forgotpass a span:hover{
+    color: red;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.card .card-form .enter {
+    align-self: center;
+    width: 100%;
+    height: 55px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.card .card-form .enter button{
+    align-self: center;
+    width: 100%;
+    height: 35px;
+    background-color: #92a8d1;
+    border: transparent solid 0px;
+}
+.card .card-form .enter button:hover{
+    opacity: 0.8;
+}
+/*.card .card-form .enter button {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}*/
+
+.card .card-form .card-form-footer {
+    align-self: center;
+    margin-top: 20px;
+}
+.card .card-form .welcome{
+    align-self:center;
+    margin-top: 15px;
+}
+.card .card-form .welcome span{
+    color: Black;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.card .card-form .card-form-footer a span {
+    color: Black;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.card .card-form .card-form-footer a span:hover{
+    color: rgb(0, 255, 123);
+}
